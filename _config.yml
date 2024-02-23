@@ -21,7 +21,7 @@ repository               : "data-portfolio/pmalenab.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "picture.png"
+  avatar           : "picture.jpg"
   name             : "Cesar Malenab"
   pronouns         : # example: "she/her"  
   bio              : "Data Science Graduate Student"
