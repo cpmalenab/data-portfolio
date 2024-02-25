@@ -6,21 +6,42 @@ redirect_from:
   - /about/
   - /about.html
 ---
+# [BoardGameGeek Content-based Recommender Data Pipeline using AWS](https://github.com/cpmalenab/bgg-recommendation-using-aws)
+
+![AWS Data Pipeline](./images/data_pipeline.png)
+
+The remarkable growth of board gaming industry has created a dynamic landscape where players, ranging from new comers up to board game collectors, are now presented with an array of options for their next gaming adventure. From this growing consumer interest, innovative game designs, and social interaction that board gaming promotes, it is projected that this industry will still further grow in the coming years. With thousands of games released annually, [BoardGameGeek (BGG)](https://boardgamegeek.com/) stands as the definitive hub where players can discover, discuss, and review board games of all genres and complexities. 
+
+The objective of this project is to establish a comprehensive data pipeline spanning from data collection up to dashboard visualization, leveraging the extensive database of BoardGameGeek. Additionally, a recommendation model is developed to identify similar games based on the mechanics and categories on a specific board game. The outlined system architecture emphasizes the use of Amazon Web Services (AWS) to streamline the processing, storage, and retrieval of the dataset utilized in this project.
+
+### Summary
+
+* Performed web scraping of all board game identifiers in [BoardGameGeek](https://boardgamegeek.com/browse/boardgame) and obtained all features, such as statistics, classification, and ranking, using the [BGG API](https://boardgamegeek.com/wiki/page/BGG_XML_API2).
+* Developed an **AWS Framework** to streamline data processing up to storage in the data lake.
+* Analyzed trends, feature dependencies, and correlations of the dataset by conducting a comprehensive **Exploratory Data Analysis**.
+* Created a **content-based recommendation model** using Inverse-Document Frequency (IDF) to find similar games based on mechanics and categories of each board game.
+* Visualized the statistics and recommendations for a particular board game using **Tableau**.
+
+![Tableau Dashboard](./images/tableau_recommender_dashboard.png)
+
+Please check out the BGG recommender dashboard on [Tableau Public](https://public.tableau.com/app/profile/cesar.malenab/viz/BoardGameGeek_2/Dashboard1) and feel free to explore its interactive features!
+
+
 # [The Big One PH](https://github.com/cpmalenab/the-big-one-ph)
 
 "The Big One PH" is an application which explores the potential impacts of a **Magnitude 7.2** earthquake along the Marikina West Valley Fault System. Through *data storytelling*, the audience can better understand the seismic risks associated with living in Metro Manila. Moreover, the application gives emphasis to the accessibility of the population to the healthcare system in a pre and post earthquake scenario. The interactive visualizations of "The Big One PH" raises awareness and promotes proactive measures in the disaster mitigation efforts to safeguard the well-being of the residents of Metro Manila.
 
 ### Summary
 
-* Conducted data wrangling on collected datasets such as population, healthcare system, and earthquake catalogs and geospatial data including fault lines, transport networks, and barangay boundaries.
-* Performed preprocessing of geospatial dataset to validate and transform data from KML (Key Markup Language) to GeoJson files using google earth and QuantumGIS.
-* Calculated accessibility scores using the Rational Agent Access Model (RAAM) of the PySAL library.
-* Visualized the datasets using an immersive and interactive data storytelling application developed using Plotly-Dash.
-* Utilized HTML and CSS to develop an immersive data visualization and deployed the application on Render.
+* Conducted **data wrangling** on collected datasets such as population, healthcare system, and earthquake catalogs and geospatial data including fault lines, transport networks, and barangay boundaries.
+* Performed preprocessing of **geospatial dataset** to validate and transform data from KML (Key Markup Language) to GeoJson files using google earth and QuantumGIS.
+* Calculated accessibility scores using the **Rational Agent Access Model (RAAM)** of the PySAL library.
+* Visualized the datasets using an immersive and interactive **data storytelling** application developed using **Plotly-Dash**.
+* Utilized **HTML and CSS** to develop an immersive data visualization and deployed the application on **Render**.
 
 ![seismicity.png](./images/seismicity.png)
 
-Add more insights here.
+Feel free to check out "The Big One PH' at https://the-big-one-ph.onrender.com/. Please note that you may experience longer loading times since the app is hosted only on a free instance of Render.
 
 # [Market Demand Analysis for Data Engineering Skills using Data Modeling and Text Mining](https://github.com/cpmalenab/market_demand_analysis_for_DE_skills)
 
@@ -32,16 +53,16 @@ The figures below shows a high-level view of the data flow to extract the in-dem
 
 ![database_schema.png](./images/database_schema.png)
 
-Summary:
-* Scraped over 1000 job descriptions on indeed.com using BeautifulSoup and Selenium.
-* Performed data filtering and cleaning using Pandas. 
-* Modeled the data in PostgreSQL using psycopg2 and SQLAlchemy libraries.
-* Conducted data visualization of geospatial distribution, industry demand, and in-demand hard and soft skills.
-* Performed topic modeling using Non-negative Matrix Factorization to extract the most sought after skill set combination.
+### Summary:
+* Scraped over 1000 job descriptions on indeed.com using **BeautifulSoup and Selenium**.
+* Performed data filtering and cleaning using **Pandas**. 
+* Modeled the data in **PostgreSQL** using psycopg2 and **SQLAlchemy** libraries.
+* Conducted **data visualization** of geospatial distribution, industry demand, and in-demand hard and soft skills.
+* Performed **topic modeling using** Non-negative Matrix Factorization to extract the most sought after skill set combination.
 
 The findings of the study showed that SQL, Python, and ETL are the leading hard skills and communication, analytical thinking, and leadership are the coveted soft skills in the current market. In addition, knowledge in both data architecture and analytics emerges as the skill combination that would give a competitive advantage to data engineers.
 
-For the full academic paper, please visit this [page](/files/Market Demand Analysis for Data Engineering Skills using Data Modeling and Text Mining.pdf)
+For the full academic paper, please visit this [page](https://nbviewer.org/github/cpmalenab/data-portfolio/blob/master/files/Market%20Demand%20Analysis%20for%20Data%20Engineering%20Skills%20using%20Data%20Modeling%20and%20Text%20Mining.pdf)
 
 # [Database Normalization](https://github.com/cpmalenab/database_normalization)
 
