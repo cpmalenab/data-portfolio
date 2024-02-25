@@ -13,9 +13,9 @@ Understanding the labor market demand can (1) help present and future profession
 
 The figures below shows a high-level view of the data flow to extract the in-demand skill sets from the online job portal as well as the database schema employed in PostgreSQL. The data flow architecture is composed of five layers including: (1) data source, (2) data ingest layer, (3) data warehouse, (4) machine learning, and (5) data visualization.
 
-![](/images/data_flow.jpg)
+![data_flow](/images/data_flow.jpg)
 
-![](/images/database_schema.png)
+![database_schema](/images/database_schema.png)
 
 Summary:
 * Scraped over 1000 job descriptions on indeed.com using BeautifulSoup and Selenium.
@@ -54,10 +54,10 @@ The United States Geological Survey (USGS) is an agency that monitors natural ha
 
 The figure below shows the effect of varying the number of trials to the smoothness of the curve.
 
-![](/images/simulation.PNG)
+![simulation](/images/simulation.PNG)
 
 The plot of hazard curves with varying number of years show that at lower probabilities of exceedance (more rare events), the tail end of the graph is not as defined as those with higher probabilities. Thus, a large number of samples is required to obtain more data points at the regions of lower probability.
 
-![](/images/hazard_curves.PNG)
+![hazard_curves](/images/hazard_curves.PNG)
 
 To view the full documentation and implementation of the project, please visit this [notebook](https://nbviewer.org/github/cpmalenab/seismic_hazard_assessment/blob/main/Seismic%20Hazard%20Assesment%20using%20Monte%20Carlo%20Simulation.ipynb).
