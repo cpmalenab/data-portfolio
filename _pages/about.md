@@ -10,7 +10,7 @@ redirect_from:
 
 "The Big One PH" is an application which explores the potential impacts of a **Magnitude 7.2** earthquake along the Marikina West Valley Fault System. Through *data storytelling*, the audience can better understand the seismic risks associated with living in Metro Manila. Moreover, the application gives emphasis to the accessibility of the population to the healthcare system in a pre and post earthquake scenario. The interactive visualizations of "The Big One PH" raises awareness and promotes proactive measures in the disaster mitigation efforts to safeguard the well-being of the residents of Metro Manila.
 
-## Summary
+### Summary
 
 * Conducted data wrangling on collected datasets such as population, healthcare system, and earthquake catalogs and geospatial data including fault lines, transport networks, and barangay boundaries.
 * Performed preprocessing of geospatial dataset to validate and transform data from KML (Key Markup Language) to GeoJson files using google earth and QuantumGIS.
@@ -41,7 +41,7 @@ Summary:
 
 The findings of the study showed that SQL, Python, and ETL are the leading hard skills and communication, analytical thinking, and leadership are the coveted soft skills in the current market. In addition, knowledge in both data architecture and analytics emerges as the skill combination that would give a competitive advantage to data engineers.
 
-For the full academic paper, please visit this [page](./files/Market Demand Analysis for Data Engineering Skills using Data Modeling and Text Mining.pdf)
+For the full academic paper, please visit this [page](/files/Market Demand Analysis for Data Engineering Skills using Data Modeling and Text Mining.pdf)
 
 # [Database Normalization](https://github.com/cpmalenab/database_normalization)
 
