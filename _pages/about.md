@@ -41,7 +41,7 @@ Please check out the BGG recommender dashboard on [Tableau Public](https://publi
 
 ![seismicity.png](./images/seismicity.png)
 
-Feel free to check out "The Big One PH' at https://the-big-one-ph.onrender.com/. Please note that you may experience longer loading times since the app is hosted only on a free instance of Render.
+Feel free to check out "The Big One PH' at[https://the-big-one-ph.onrender.com/](https://the-big-one-ph.onrender.com/). Please note that you may experience longer loading times since the app is hosted only on a free instance of Render.
 
 # [Market Demand Analysis for Data Engineering Skills using Data Modeling and Text Mining](https://github.com/cpmalenab/market_demand_analysis_for_DE_skills)
 
@@ -51,30 +51,18 @@ The figures below shows a high-level view of the data flow to extract the in-dem
 
 ![data_flow.jpg](./images/data_flow.jpg)
 
-![database_schema.png](./images/database_schema.png)
-
 ### Summary:
 * Scraped over 1000 job descriptions on indeed.com using **BeautifulSoup and Selenium**.
 * Performed data filtering and cleaning using **Pandas**. 
 * Modeled the data in **PostgreSQL** using psycopg2 and **SQLAlchemy** libraries.
 * Conducted **data visualization** of geospatial distribution, industry demand, and in-demand hard and soft skills.
-* Performed **topic modeling using** Non-negative Matrix Factorization to extract the most sought after skill set combination.
+* Performed **topic modeling** using Non-negative Matrix Factorization to extract the most sought after skill set combination.
+
+![database_schema.png](./images/database_schema.png)
 
 The findings of the study showed that SQL, Python, and ETL are the leading hard skills and communication, analytical thinking, and leadership are the coveted soft skills in the current market. In addition, knowledge in both data architecture and analytics emerges as the skill combination that would give a competitive advantage to data engineers.
 
-For the full academic paper, please visit this [page](https://nbviewer.org/github/cpmalenab/data-portfolio/blob/master/files/Market%20Demand%20Analysis%20for%20Data%20Engineering%20Skills%20using%20Data%20Modeling%20and%20Text%20Mining.pdf)
-
-# [Database Normalization](https://github.com/cpmalenab/database_normalization)
-
-Organizing information in a relational database requires eliminating redundancy to maintain the integrity and consistency of data. If left unchecked in the initial stages of project development, this could result in serious ramifications in terms of performance and waste of resources. For instance, if there is only a single table to store the entire data set then the program has to do a full database scan even for queries that require only a few records. Moreover, if data is repeated over several rows, a single error can cause erroneous data or potential loss of information.
-
-This [notebook](https://nbviewer.org/github/cpmalenab/database_normalization/blob/main/Creating%20Normalized%20Tables.ipynb) aims to discuss the following:
-
-1. Demonstrate the normalization process through a sample music library database.
-2. Present and discuss each *normal form* supplemented by Python code and psycopg2 library to manipulate the PostgreSQL database.
-3. Define concepts behind database normalization to better understand the theoretical foundation of the topic.
-4. Complement the normalized database using an Entity-Relationship Diagram.
-5. Identify possible trade-offs and implications of normalizing a database.
+For the full academic paper, please visit this [page](https://nbviewer.org/github/cpmalenab/data-portfolio/blob/master/files/Market%20Demand%20Analysis%20for%20Data%20Engineering%20Skills%20using%20Data%20Modeling%20and%20Text%20Mining.pdf).
 
 # [Seismic Hazard Assessment using Monte Carlo Simulation](https://github.com/cpmalenab/seismic_hazard_assessment)
 
