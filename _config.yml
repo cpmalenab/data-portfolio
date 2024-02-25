@@ -12,7 +12,7 @@ title                    : "Cesar's Homepage"
 title_separator          : "-"
 name                     : &name "Cesar Malenab"
 description              : &description "Data Science Graduate Student"
-url                      : https://cpmalenab.github.io/data-portfolio/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://cpmalenab.github.io/data-portfolio # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "data-portfolio/pmalenab.github.io"
 
