@@ -13,7 +13,7 @@ Understanding the labor market demand can (1) help present and future profession
 
 The figures below shows a high-level view of the data flow to extract the in-demand skill sets from the online job portal as well as the database schema employed in PostgreSQL. The data flow architecture is composed of five layers including: (1) data source, (2) data ingest layer, (3) data warehouse, (4) machine learning, and (5) data visualization.
 
-![data_flow](/images/data_flow.jpg)
+![data_flow](/tree/master/images/data_flow.jpg)
 
 ![database_schema](/images/database_schema.png)
 
