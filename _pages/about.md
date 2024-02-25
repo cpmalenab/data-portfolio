@@ -6,8 +6,23 @@ redirect_from:
   - /about/
   - /about.html
 ---
+# [The Big One PH](https://github.com/cpmalenab/the-big-one-ph)
 
-# [Project 1: Market Demand Analysis for Data Engineering Skills using Data Modeling and Text Mining](https://github.com/cpmalenab/market_demand_analysis_for_DE_skills)
+"The Big One PH" is an application which explores the potential impacts of a **Magnitude 7.2** earthquake along the Marikina West Valley Fault System. Through *data storytelling*, the audience can better understand the seismic risks associated with living in Metro Manila. Moreover, the application gives emphasis to the accessibility of the population to the healthcare system in a pre and post earthquake scenario. The interactive visualizations of "The Big One PH" raises awareness and promotes proactive measures in the disaster mitigation efforts to safeguard the well-being of the residents of Metro Manila.
+
+## Summary
+
+* Conducted data wrangling on collected datasets such as population, healthcare system, and earthquake catalogs and geospatial data including fault lines, transport networks, and barangay boundaries.
+* Performed preprocessing of geospatial dataset to validate and transform data from KML (Key Markup Language) to GeoJson files using google earth and QuantumGIS.
+* Calculated accessibility scores using the Rational Agent Access Model (RAAM) of the PySAL library.
+* Visualized the datasets using an immersive and interactive data storytelling application developed using Plotly-Dash.
+* Utilized HTML and CSS to develop an immersive data visualization and deployed the application on Render.
+
+![seismicity.png](./images/seismicity.png)
+
+Add more insights here.
+
+# [Market Demand Analysis for Data Engineering Skills using Data Modeling and Text Mining](https://github.com/cpmalenab/market_demand_analysis_for_DE_skills)
 
 Understanding the labor market demand can (1) help present and future professionals build their portfolio with the most marketable skills, (2) supplement the frameworks of educational institutions and training centers to better prepare students in the digital industry, and (3) give an insight to the general landscape of data engineering industry with the Philippines as the geographical focus.
 
@@ -26,9 +41,9 @@ Summary:
 
 The findings of the study showed that SQL, Python, and ETL are the leading hard skills and communication, analytical thinking, and leadership are the coveted soft skills in the current market. In addition, knowledge in both data architecture and analytics emerges as the skill combination that would give a competitive advantage to data engineers.
 
-For the full academic paper, please visit this [page](https://github.com/cpmalenab/market_demand_analysis_for_DE_skills/blob/main/final%20paper/Market%20Demand%20Analysis%20for%20Data%20Engineering%20Skills%20using%20Data%20Modeling%20and%20Text%20Mining.pdf).
+For the full academic paper, please visit this [page](./files/Market Demand Analysis for Data Engineering Skills using Data Modeling and Text Mining.pdf)
 
-# [Project 2: Database Normalization](https://github.com/cpmalenab/database_normalization)
+# [Database Normalization](https://github.com/cpmalenab/database_normalization)
 
 Organizing information in a relational database requires eliminating redundancy to maintain the integrity and consistency of data. If left unchecked in the initial stages of project development, this could result in serious ramifications in terms of performance and waste of resources. For instance, if there is only a single table to store the entire data set then the program has to do a full database scan even for queries that require only a few records. Moreover, if data is repeated over several rows, a single error can cause erroneous data or potential loss of information.
 
@@ -40,7 +55,7 @@ This [notebook](https://nbviewer.org/github/cpmalenab/database_normalization/blo
 4. Complement the normalized database using an Entity-Relationship Diagram.
 5. Identify possible trade-offs and implications of normalizing a database.
 
-# [Project 3: Seismic Hazard Assessment using Monte Carlo Simulation](https://github.com/cpmalenab/seismic_hazard_assessment)
+# [Seismic Hazard Assessment using Monte Carlo Simulation](https://github.com/cpmalenab/seismic_hazard_assessment)
 
 Statistics of significant earthquakes (Mw ≥ 5.0 and distance ≤ 400 km) are established for a building in Metro Manila based on an earthquake catalog in the past 122 years. Seismic hazard assessment utilizing conventional Probabilistic Seismic Hazard Analysis (PSHA) may be validated using the **Monte Carlo Simulation (MCS)** method and this notebook presents a framework for performing MCS in Python for seismic hazard assessments. The seismicity of the project site is determined through *descriptive statistics* of various earthquake parameters which will also serve as input variables for the simulation. This notebook will also highlight common methods, function calls, and visualization tools that are important in statistical studies and random sampling methods.
 
