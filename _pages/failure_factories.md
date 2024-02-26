@@ -5,12 +5,15 @@ author_profile: true
 ---
 ### Introduction
 
+![failure_factories](/data-portfolio/images/failure_factories.jpg){: .align-center height="600px"}
+<figcaption style="text-align:center; font-size: smaller;">Failure Factories by Tampa Bay Times</figcaption>
+
 Data journalism is a data-driven approach to communicating stories and presenting news for mass media consumption. The award-winning story, [Failure Factories](https://projects.tampabay.com/projects/2015/investigations/pinellas-failure-factories/chart-failing-black-students/), adopted this approach to showcase the increasing resegregation of Pinellas County public schools to the public at the broadest reach possible. The decision to publish the story through a scroll-based format, paired with its easy accessibility using mobile platforms, reflects the writers’ aim to engage more readers in the ongoing crisis in Pinellas County. 
+
+### Data and Task Abstractions
 
 ![abstractions](/data-portfolio/images/abstractions.PNG){: .align-center height="600px"}
 <figcaption style="text-align:center; font-size: smaller;">Task and Data Abstractions from Visualization Analysis & Design (Munzner, 2014)</figcaption>
-
-### Data and Task Abstractions
 
 The task and data abstractions set the precedence for the chosen idioms by the designers in creating an engaging story. Public school resegregation can be abstracted to a *present-trends* action target pair that highlights the increase and decrease of black students at several public schools in the county. The *locate-extremes* task abstracts the goal of the author to identify the schools (i.e., *location unknown*) with extreme characteristics of the high percentage of black student enrollees (i.e., *target known*). The authors use the output of the previous task to *identify correlations* between poor academic performance and the percentage of black students. 
 
