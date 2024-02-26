@@ -27,5 +27,6 @@ This [notebook](https://nbviewer.org/github/cpmalenab/database_normalization/blo
 3. Define concepts behind database normalization to better understand the theoretical foundation of the topic.
 4. Complement the normalized database using an Entity-Relationship Diagram.
 5. Identify possible trade-offs and implications of normalizing a database.
+
 ---
 
