@@ -9,6 +9,13 @@ author_profile: true
 Organizing information in a relational database requires eliminating redundancy to maintain the integrity and consistency of data. If left unchecked in the initial stages of project development, this could result in serious ramifications in terms of performance and waste of resources. For instance, if there is only a single table to store the entire data set then the program has to do a full database scan even for queries that require only a few records. Moreover, if data is repeated over several rows, a single error can cause erroneous data or potential loss of information.
 
 ![music_schema](./images/music_schema.PNG)
+![music_schema](./images/music_schema.png)
+![music_schema](../images/music_schema.PNG)
+![music_schema](../images/music_schema.png)
+![music_schema](/images/music_schema.PNG)
+![music_schema](images/music_schema.PNG)
+![music_schema](/images/music_schema.png)
+![music_schema](images/music_schema.png)
 
 This [notebook](https://nbviewer.org/github/cpmalenab/database_normalization/blob/main/Creating%20Normalized%20Tables.ipynb) aims to discuss the following:
 
