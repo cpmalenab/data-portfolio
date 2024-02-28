@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "Hi there, I'm Cesar!"
+title: "Mabuhay! I'm Cesar."
 author_profile: true
 ---
 
@@ -8,5 +8,5 @@ I am a passionate graduate student currently pursuing a Master of Science in Dat
 
 Outside of my academic and professional work, staying physically and mentally active has been my escape. You’ll often catch me enjoying riding my bike on off-road terrains away from the city or engaging in competitive board game sessions with friends and family. Whether it's cycling through rugged landscapes or strategizing my next board game move, I bring the same level of enthusiasm to everything I do.
 
-As I continue to expand my knowledge and expertise in data science, I am eager to explore new opportunities and collaborate with like-minded data enthusiasts. Don’t hesitate to reach out and I always look forward for opportunities to exchange ideas and make meaningful contributions. 
+As I continue to expand my knowledge and expertise in data science, I am eager to explore new opportunities and collaborate with like-minded data enthusiasts. Don’t hesitate to reach out as I always look forward for opportunities to exchange ideas and make meaningful contributions. 
 
