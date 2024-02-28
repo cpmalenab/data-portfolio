@@ -17,7 +17,7 @@ The objective of this project is to establish a comprehensive data pipeline span
 
 ### Summary
 
-* Utilized web scraping techniques to systematically gather comprehensive data on board games from [BoardGameGeek](https://boardgamegeek.com/browse/boardgame), leveraging the [BGG API](https://boardgamegeek.com/wiki/page/BGG_XML_API2) to collect features including statistics, classifications, and rankings.
+* Utilized the [BoardGameGeek API](https://boardgamegeek.com/wiki/page/BGG_XML_API2) to systematically gather comprehensive data on board games and collect features including statistics, classifications, and rankings. 
 * Architected an end-to-end data processing pipeline using **AWS**, orchestrating tasks from initial data ingestion through storage in data lake.
 * Conducted an extensive **Exploratory Data Analysis** to identify underlying trends, feature dependencies, and correlations within the dataset, providing invaluable insights for subsequent modeling. 
 * Developed a **content-based recommendation model** using Inverse-Document Frequency (IDF) to find similar games based on mechanics and categories of each board game.
@@ -39,8 +39,8 @@ Please check out the BGG recommender dashboard on [Tableau Public](https://publi
 * Conducted comprehensive **data wrangling** on diverse datasets such as population demographics, healthcare system, and earthquake catalogs, alongside geospatial data including, fault lines, transportation networks, and barangay boundaries.
 * Exectuted preprocessing of **geospatial datasets** to ensure accuracy and compatibility, validating and converting data from KML (Key Markup Language) to GeoJson format utilizing tools such as Google Earth and QuantumGIS.
 * Applied the **Rational Agent Access Model (RAAM)** from the PySAL library to compute accessibility scores, facilitating insightful analysis of spatial disparities and resource distribution.
-* Visualized the datasets using an engaging and interactive **data storytelling** application developed with **Plotly-Dash**, enabling users to intuitively explore key insights derived from the data sets.
-* Utilized **HTML and CSS** to design a visually complelling data visualization interface, subsequently deploying the application on **Render**.
+* Visualized the datasets using an engaging and interactive **data storytelling** application developed with **Plotly-Dash**, enabling users to intuitively explore key insights derived from the datasets.
+* Utilized **HTML and CSS** to design a visually compelling data visualization interface, subsequently deploying the application on **Render**.
 
 ![seismicity.png](./images/seismicity.png){: .align-center height="600px"}
 <figcaption style="text-align:center; font-size: smaller;">The Big One PH Data Storytelling Visualization</figcaption>
