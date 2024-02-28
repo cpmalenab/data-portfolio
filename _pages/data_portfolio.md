@@ -17,11 +17,11 @@ The objective of this project is to establish a comprehensive data pipeline span
 
 ### Summary
 
-* Performed web scraping of all board game identifiers in [BoardGameGeek](https://boardgamegeek.com/browse/boardgame) and obtained all features, such as statistics, classification, and ranking, using the [BGG API](https://boardgamegeek.com/wiki/page/BGG_XML_API2).
-* Developed an **AWS Framework** to streamline data processing up to storage in the data lake.
-* Analyzed trends, feature dependencies, and correlations of the dataset by conducting a comprehensive **Exploratory Data Analysis**.
-* Created a **content-based recommendation model** using Inverse-Document Frequency (IDF) to find similar games based on mechanics and categories of each board game.
-* Visualized the statistics and recommendations for a particular board game using **Tableau**.
+* Utilized web scraping techniques to systematically gather comprehensive data on board games from [BoardGameGeek](https://boardgamegeek.com/browse/boardgame), leveraging the [BGG API](https://boardgamegeek.com/wiki/page/BGG_XML_API2) to collect features including statistics, classifications, and rankings.
+* Architected an end-to-end data processing pipeline using **AWS**, orchestrating tasks from initial data ingestion through storage in data lake.
+* Conducted an extensive **Exploratory Data Analysis** to identify underlying trends, feature dependencies, and correlations within the dataset, providing invaluable insights for subsequent modeling. 
+* Developed a **content-based recommendation model** using Inverse-Document Frequency (IDF) to find similar games based on mechanics and categories of each board game.
+* Employed **Tableau** in developing an immersive dashboard that effectively communicates key statistics and personalized recommendations for individual board games.
 
 ![Tableau Dashboard](./images/tableau_recommender_dashboard.png){: .align-center height="600px"}
 <figcaption style="text-align:center; font-size: smaller;">Board Game Recommendation Application on Tableau Public</figcaption>
@@ -36,11 +36,11 @@ Please check out the BGG recommender dashboard on [Tableau Public](https://publi
 
 ### Summary
 
-* Conducted **data wrangling** on collected datasets such as population, healthcare system, and earthquake catalogs and geospatial data including fault lines, transport networks, and barangay boundaries.
-* Performed preprocessing of **geospatial dataset** to validate and transform data from KML (Key Markup Language) to GeoJson files using google earth and QuantumGIS.
-* Calculated accessibility scores using the **Rational Agent Access Model (RAAM)** of the PySAL library.
-* Visualized the datasets using an immersive and interactive **data storytelling** application developed using **Plotly-Dash**.
-* Utilized **HTML and CSS** to develop an immersive data visualization and deployed the application on **Render**.
+* Conducted comprehensive **data wrangling** on diverse datasets such as population demographics, healthcare system, and earthquake catalogs, alongside geospatial data including, fault lines, transportation networks, and barangay boundaries.
+* Exectuted preprocessing of **geospatial datasets** to ensure accuracy and compatibility, validating and converting data from KML (Key Markup Language) to GeoJson format utilizing tools such as Google Earth and QuantumGIS.
+* Applied the **Rational Agent Access Model (RAAM)** from the PySAL library to compute accessibility scores, facilitating insightful analysis of spatial disparities and resource distribution.
+* Visualized the datasets using an engaging and interactive **data storytelling** application developed with **Plotly-Dash**, enabling users to intuitively explore key insights derived from the data sets.
+* Utilized **HTML and CSS** to design a visually complelling data visualization interface, subsequently deploying the application on **Render**.
 
 ![seismicity.png](./images/seismicity.png){: .align-center height="600px"}
 <figcaption style="text-align:center; font-size: smaller;">The Big One PH Data Storytelling Visualization</figcaption>
@@ -59,11 +59,11 @@ The figures below shows a high-level view of the data flow to extract the in-dem
 <figcaption style="text-align:center; font-size: smaller;">Data Flow Diagram</figcaption>
 
 ### Summary:
-* Scraped over 1000 job descriptions on indeed.com using **BeautifulSoup and Selenium**.
-* Performed data filtering and cleaning using **Pandas**. 
-* Modeled the data in **PostgreSQL** using psycopg2 and **SQLAlchemy** libraries.
-* Conducted **data visualization** of geospatial distribution, industry demand, and in-demand hard and soft skills.
-* Performed **topic modeling** using Non-negative Matrix Factorization to extract the most sought after skill set combination.
+* Employed **BeautifulSoup and Selenium** to scrape 1000 job descriptions from indeed.com.
+* Utilized **Pandas** for precise data filtering and cleaning, ensuring the integrity and quality of the dataset.
+* Implemented relational data modeling in **PostgreSQL** using the **psycopg2** and **SQLAlchemy** libraries, facilitating efficient storage and retrieval of structured information using **SQL**.
+* Conducted **data visualization** of key insights including geospatial distribution analysis, industry demand trends, and identification of in-demand hard and soft skills.
+* Performed **topic modeling** using Non-negative Matrix Factorization to summarize the collected job descriptions into four skill sets.
 
 ![database_schema.png](./images/database_schema.png){: .align-center}
 <figcaption style="text-align:center; font-size: smaller;">Database Schema</figcaption>
