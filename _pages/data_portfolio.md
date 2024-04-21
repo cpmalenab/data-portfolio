@@ -123,4 +123,4 @@ The plot of hazard curves with varying number of years show that at lower probab
 ![hazard_curves](./images/hazard_curves.PNG){: .align-center height="600px"}
 <figcaption style="text-align:center; font-size: smaller;">Spectral acceleration curves produced with 1,000,000 years of simulated earthquake at varying structural periods using Monte Carlo Simulation</figcaption>
 
-To view the full documentation and implementation of the project, please visit this [notebook](https://nbviewer.org/github/cpmalenab/seismic_hazard_assessment/blob/main/Seismic%20Hazard%20Assesment%20using%20Monte%20Carlo%20Simulation.ipynb).
+To view the full documentation and implementation of the project, please visit this [notebook](https://nbviewer.org/github/cpmalenab/seismic_hazard_assessment/blob/main/Seismic%20Hazard%20Assesment%20using%20Monte%20Carlo%20Simulation.ipynb) and the accompanying [research paper](https://nbviewer.org/github/cpmalenab/seismic_hazard_assessment/blob/main/Seismic%20Hazard%20Assessment%20of%20a%20Residential%20Building%20in%20Metro%20Manila%20using%20Reliability-based%20Methods.pdf).
