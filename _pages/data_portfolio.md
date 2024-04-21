@@ -9,6 +9,7 @@ author_profile: true
 # [Prediction of Fire Resistance of FRP-strengthened Concrete Beams using Machine Learning Techniques](https://github.com/cpmalenab/fire-resistance)
 
 ![Grenfell Fire](./images/grenfell_fire.png)
+<figcaption style="text-align:center; font-size: smaller;">The tragic fire incident at the 24-story Grenfell Tower in London, occurring in June 2017, resulted in over 70 fatalities and 79 injuries.</figcaption>
 
 Structural retrofitting of concrete buildings is necessitated by building aging, changes in occupancy, structural code updates, seismic events, and construction errors, with various techniques such as concrete jacketing, steel plate bonding, and Fiber Reinforced Polymer (FRP) application being utilized. FRP stands out due to its quick installation, lightweight nature, durability, and adaptability, but it suffers from diminished performance at *elevated temperatures* and potential adhesion failure. **Fire resistance** is defined as the duration for which a structural member sustains the applied loading under fire exposure. Assessing the fire resistance (in minutes) of FRP-strengthened concrete beams involve prescriptive codes, experimental tests, and numerical simulations, with challenges including cost and practicality. While experimental studies show enhanced capacities with insulation, full-scale tests are expensive, and numerical analysis requires specialized training and resources. Balancing cost, practicality, and accuracy is essential in selecting the most suitable fire resistance evaluation method.
 
@@ -22,21 +23,12 @@ Existing methodologies for determining the fire performance of FRP-strengthened 
 * Determined feature importance across all models using **SHAP** (SHapley Additive exPlanations) to provide valuable insights into the most important features driving the predictive performance of the models.
 * Summarized the results through a research [paper](https://nbviewer.org/github/cpmalenab/fire-resistance/blob/master/paper/Prediction%20of%20Fire%20Resistance%20of%20Fiber-Reinforced%20Polymer-Strengthened%20Concrete%20Beams%20Using%20Machine%20Learning%20Techniques.pdf), providing in-depth analysis of model performance, feature relevance, and practical implications of the developed models for real-world use.
 
-<center>
-
-| Model                      | RMSE (minutes) | MAE (minutes) | R^2 (%) |
-|----------------------------|----------------|---------------|---------|
-| XGBoost                    |     17.82      |     9.87      |  0.942  |
-| Random Forest              |     18.58      |     10.33     |  0.937  |
-| Deep Neural Networks       |     17.66      |     12.15     |  0.942  |
-| Support Vector Regressor   |     26.49      |     14.71     |  0.871  |
-| Linear Regression          |     44.10      |     33.77     |  0.650  |
-
-</center>
+![ml_models](./images/ml_models.JPG)
 
 ![xgboost_results](./images/xgboost_results.JPG)
+<figcaption style="text-align:center; font-size: smaller;">XGBoost Model Prediction Errors and Residual Plots</figcaption>
 
-The findings of this research indicate that XGBoost demonstrates strong performance in overall fire resistance prediction, while Deep Neural Networks excel particularly in capturing extreme values of fire resistance. Key factors influencing fire resistance prediction include load ratio, insulation depth, steel area, concrete cover, and total load. By showcasing the effectiveness of machine learning methods, this study emphasizes their potential to address highly nonlinear problems in classical engineering domains where conventional knowledge-based approaches may prove impractical or unfeasible. The automated nature of these approaches holds promise for significant time and resource savings, reducing reliance on manual effort.
+The findings of this research indicate that *XGBoost* demonstrates strong performance in overall fire resistance prediction, while *Deep Neural Networks* excel particularly in capturing extreme values of fire resistance. Key factors influencing fire resistance prediction include load ratio, insulation depth, steel area, concrete cover, and total load. By showcasing the effectiveness of machine learning methods, this study emphasizes their potential to address highly nonlinear problems in classical engineering domains where conventional knowledge-based approaches may prove impractical or unfeasible. The automated nature of these approaches holds promise for significant time and resource savings, reducing reliance on manual effort.
 
 ---
 
