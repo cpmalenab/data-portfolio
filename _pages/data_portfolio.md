@@ -27,6 +27,16 @@ Existing methodologies for determining the fire performance of FRP-strengthened 
 ![ml_models](./images/ml_models.JPG){: .align-center height="400px"}
 <figcaption style="text-align:center; font-size: smaller;">Performance of Machine Learning Models after Hyperparameter Tuning</figcaption>
 
+### Table 1
+
+| Header1 | Header2 | Header3 | Header1 |
+|:--------|:-------:|--------:|:--------|
+| cell1   | cell2   | cell3   | cell3   |
+| cell4   | cell5   | cell6   | cell3   |
+| cell3   | cell3   | cell3   | cell3   |
+| cell1   | cell2   | cell3   | cell3   |
+| cell4   | cell5   | cell6   | cell3   |
+
 ![xgboost_results](./images/xgboost_results.JPG)
 <figcaption style="text-align:center; font-size: smaller;">XGBoost Model Prediction Errors and Residual Plots</figcaption>
 
