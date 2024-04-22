@@ -20,22 +20,11 @@ Existing methodologies for determining the fire performance of FRP-strengthened 
 * Conducted feature engineering and exploratory data analysis to prepare the dataset for optimal utilization by machine learning models.
 * Utilized **Scikit-learn** to evaluate candidate machine learning models, including Linear Regression with ElasticNet, Support Vector Regressor, Random Forest, and XGBoost, using diverse performance metrics (R^2, RMSE, MAE) for assessment.
 * Employed **PyTorch** to design and train a five-layer Deep Neural Network with ReLU activation function and Adam optimizer, following a systematic evaluation of architecture over multiple iterations.
-* Performed hyperparameter tuning using random search (RandomizedSearchCV) with five-fold cross validation, pushing the predictive power of the models. 
+* Performed hyperparameter tuning using random search (RandomizedSearchCV) with five-fold cross validation, and achieved an R^2 of 94% and around 10% error relative to the mean for the best performing model. 
 * Determined feature importance across all models using **SHAP** (SHapley Additive exPlanations) to provide valuable insights into the most important features driving the predictive performance of the models.
 
-
+<figcaption style="text-align:center; font-size: smaller;">Table. Performance of Machine Learning Models after Hyperparameter Tuning</figcaption>
 ![ml_models](./images/ml_models.JPG){: .align-center height="400px"}
-<figcaption style="text-align:center; font-size: smaller;">Performance of Machine Learning Models after Hyperparameter Tuning</figcaption>
-
-### Table 1
-
-| Header1 | Header2 | Header3 | Header1 |
-|:--------|:-------:|--------:|:--------|
-| cell1   | cell2   | cell3   | cell3   |
-| cell4   | cell5   | cell6   | cell3   |
-| cell3   | cell3   | cell3   | cell3   |
-| cell1   | cell2   | cell3   | cell3   |
-| cell4   | cell5   | cell6   | cell3   |
 
 ![xgboost_results](./images/xgboost_results.JPG)
 <figcaption style="text-align:center; font-size: smaller;">XGBoost Model Prediction Errors and Residual Plots</figcaption>
