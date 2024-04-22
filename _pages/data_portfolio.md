@@ -24,6 +24,7 @@ Existing methodologies for determining the fire performance of FRP-strengthened 
 * Determined feature importance across all models using **SHAP** (SHapley Additive exPlanations) to provide valuable insights into the most important features driving the predictive performance of the models.
 
 <figcaption style="text-align:center; font-size: smaller;">Table. Performance of Machine Learning Models after Hyperparameter Tuning</figcaption>
+
 ![ml_models](./images/ml_models.JPG){: .align-center height="400px"}
 
 ![xgboost_results](./images/xgboost_results.JPG)
